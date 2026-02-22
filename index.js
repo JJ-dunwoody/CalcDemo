@@ -9,14 +9,34 @@ for (let i = 0; i < allButtonEls.length; i++) {
       clearResult();
     } else if (buttonValue === "=") {
       calculateResult();
+    } else if (buttonValue === "click for bruh") {
+      outputNormalBruh();
+    } else if (buttonValue === "bruhh") {
+      outputBruhh();
+    } else if (buttonValue === "bruh") {
+      outputRedBruh();
+    } else if (buttonValue === "500") {
+      output500();
     } else {
       appendValue(buttonValue);
     }
   });
 }
 
-if (buttonValue === "bruh") {
-    print("bruh")
+function outputNormalBruh() {
+  inputFieldEl.value = "bruh";
+}
+
+function outputBruhh() {
+  inputFieldEl.value = "bruh but in rainbow";
+}
+
+function outputRedBruh() {
+  inputFieldEl.value = "bruh but in red";
+}
+
+function output500() {
+  inputFieldEl.value = "this is the number five hundred";
 }
 
 function clearResult() {

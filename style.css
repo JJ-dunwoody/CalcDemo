@@ -9,6 +9,12 @@ h1 {
   align-items: center;
 }
 
+h2 {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .calculator {
   background-color: #f2f2f2;
   padding: 20px;
@@ -27,6 +33,7 @@ h1 {
   border: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
   border-radius: 5px;
+  margin-bottom: 20px;
 }
 
 .buttons {
@@ -41,7 +48,7 @@ button {
   font-size: 24px;
   border: none;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  border-radius: 5px;
+  border-radius: 100px;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -72,10 +79,34 @@ button:hover {
   color: #fff;
 }
 
-.dumb {
+.bruh {
+  background-color: #ffffff;
+  grid-row: span 60;
+  color: #000000
+}
+
+.redbruh {
   background-color: #ff4136;
-  grid-row: span 80;
-  color: #0721eb
+  grid-row: span 60;
+  color: #ffffff
+}
+
+.rainbowbutton {
+  padding: 0px;
+  font-size: 50px;
+  grid-area: span 60;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+  background-size: 100% 100%;
+}
+
+.number500 {
+  background-color: #ed8fdc;
+  grid-row: span 3;
+  color: #00ff3c
 }
 
 ul {
@@ -95,4 +126,14 @@ li a {
 }
 li a:visited {
   color: darkgreen;
+}
+
+.image {
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.description {
+  text-align: center;
 }
