@@ -15,6 +15,10 @@ for (let i = 0; i < allButtonEls.length; i++) {
   });
 }
 
+if (buttonValue === "bruh") {
+    print("bruh")
+}
+
 function clearResult() {
   inputFieldEl.value = "";
 }

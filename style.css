@@ -72,6 +72,12 @@ button:hover {
   color: #fff;
 }
 
+.dumb {
+  background-color: #ff4136;
+  grid-row: span 80;
+  color: #0721eb
+}
+
 ul {
   list-style-type: none;
   margin: 0;
